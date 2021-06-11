@@ -5,14 +5,13 @@ from conans import ConanFile, AutoToolsBuildEnvironment, tools
 
 class MlibConan(ConanFile):
     name = "mlib"
-    version = "0.4.0"
+    version = "0.5.0" # commit from 2021.01.13
     source_subfolder = "mlib"
     scm = {
         "type": "git",
         "subfolder": source_subfolder,
         "url": "https://github.com/P-p-H-d/mlib.git",
-        # latest commit, 2020.05.27, 
-        "revision": "V0.4.0"
+        "revision": "V" + version
     }
 
     homepage = "https://github.com/P-p-H-d/mlib"
