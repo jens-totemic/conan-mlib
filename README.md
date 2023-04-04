@@ -1,2 +1,1 @@
-# conan-mlib
-Conan build files for mlib https://github.com/P-p-H-d/mlib
+Moved to https://github.com/totemic/conan-package-recipes
